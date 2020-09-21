@@ -1,3 +1,5 @@
+This is a fork of Golub and Sussillo's (2018) [fixed-point-finder](https://github.com/mattgolub/fixed-point-finder) repository. The only change I've made is to add an `__init__.py` and change the repository name to make the code a little easier to use as a Python module in other projects. The original description is below:
+
 # FixedPointFinder - A Tensorflow toolbox for finding fixed points and linearized dynamics in recurrent neural networks
 
 Finds and analyzes the fixed points of recurrent neural networks that have been built using Tensorflow. The approach follows that outlined in Sussillo and Barak (2013), "Opening the Black Box: Low-Dimensional Dynamics in High-Dimensional Recurrent Neural Networks", *Neural Computation*.
