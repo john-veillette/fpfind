@@ -17,11 +17,11 @@ from tensorflow.python.ops import parallel_for as pfor
 import absl
 import pdb
 
-from FixedPoints import FixedPoints
+from .FixedPoints import FixedPoints
 from AdaptiveLearningRate import AdaptiveLearningRate
 from AdaptiveGradNormClip import AdaptiveGradNormClip
 from Timer import Timer
-import tf_utils
+import .tf_utils
 
 class FixedPointFinder(object):
 
