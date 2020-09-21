@@ -21,7 +21,7 @@ from .FixedPoints import FixedPoints
 from AdaptiveLearningRate import AdaptiveLearningRate
 from AdaptiveGradNormClip import AdaptiveGradNormClip
 from Timer import Timer
-import .tf_utils
+from . import tf_utils
 
 class FixedPointFinder(object):
 
